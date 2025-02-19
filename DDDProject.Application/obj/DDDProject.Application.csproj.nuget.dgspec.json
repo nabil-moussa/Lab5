@@ -33,6 +33,9 @@
               },
               "C:\\Users\\user\\OneDrive\\Desktop\\InmindAcademy\\Inmind\\DDDProject\\DDDProject.Domain\\DDDProject.Domain.csproj": {
                 "projectPath": "C:\\Users\\user\\OneDrive\\Desktop\\InmindAcademy\\Inmind\\DDDProject\\DDDProject.Domain\\DDDProject.Domain.csproj"
+              },
+              "C:\\Users\\user\\OneDrive\\Desktop\\InmindAcademy\\Inmind\\DDDProject\\DDDProject.Persistence\\DDDProject.Persistence.csproj": {
+                "projectPath": "C:\\Users\\user\\OneDrive\\Desktop\\InmindAcademy\\Inmind\\DDDProject\\DDDProject.Persistence\\DDDProject.Persistence.csproj"
               }
             }
           }
@@ -214,6 +217,100 @@
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[9.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.Net.Sdk.Compilers.Toolset",
+              "version": "[9.0.100, 9.0.100]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Users\\user\\.dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\user\\OneDrive\\Desktop\\InmindAcademy\\Inmind\\DDDProject\\DDDProject.Persistence\\DDDProject.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\user\\OneDrive\\Desktop\\InmindAcademy\\Inmind\\DDDProject\\DDDProject.Persistence\\DDDProject.Persistence.csproj",
+        "projectName": "DDDProject.Persistence",
+        "projectPath": "C:\\Users\\user\\OneDrive\\Desktop\\InmindAcademy\\Inmind\\DDDProject\\DDDProject.Persistence\\DDDProject.Persistence.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\OneDrive\\Desktop\\InmindAcademy\\Inmind\\DDDProject\\DDDProject.Persistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\user\\OneDrive\\Desktop\\InmindAcademy\\Inmind\\DDDProject\\DDDProject.Application\\DDDProject.Application.csproj": {
+                "projectPath": "C:\\Users\\user\\OneDrive\\Desktop\\InmindAcademy\\Inmind\\DDDProject\\DDDProject.Application\\DDDProject.Application.csproj"
+              },
+              "C:\\Users\\user\\OneDrive\\Desktop\\InmindAcademy\\Inmind\\DDDProject\\DDDProject.Domain\\DDDProject.Domain.csproj": {
+                "projectPath": "C:\\Users\\user\\OneDrive\\Desktop\\InmindAcademy\\Inmind\\DDDProject\\DDDProject.Domain\\DDDProject.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Microsoft.Extensions.Caching.StackExchangeRedis": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[9.0.3, )"
             }
           },
           "imports": [
