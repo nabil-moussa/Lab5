@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "rC8Lh3WxHVs=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\user\\OneDrive\\Desktop\\InmindAcademy\\Inmind\\DDDProject\\DDDProject.Application\\DDDProject.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.net.sdk.compilers.toolset\\9.0.100\\microsoft.net.sdk.compilers.toolset.9.0.100.nupkg.sha512"
+  ],
+  "logs": []
+}
