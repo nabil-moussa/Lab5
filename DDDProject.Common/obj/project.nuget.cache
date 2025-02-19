@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "yGR19Bkxe64=",
+  "dgSpecHash": "f36UecwuBhc=",
   "success": true,
   "projectFilePath": "C:\\Users\\user\\OneDrive\\Desktop\\InmindAcademy\\Inmind\\DDDProject\\DDDProject.Common\\DDDProject.Common.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\9.0.2\\microsoft.extensions.dependencyinjection.9.0.2.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.2\\microsoft.extensions.dependencyinjection.abstractions.9.0.2.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.net.sdk.compilers.toolset\\9.0.100\\microsoft.net.sdk.compilers.toolset.9.0.100.nupkg.sha512"
   ],
   "logs": []
